@@ -10,7 +10,7 @@ define('DB_NAME', 'watch_store');      // <-- Your MySQL database name
 
 // --- ALPHA SMS API CONFIGURATION ---
 // Get keys from https://alphasms.com.bd/
-define('ALPHA_API_KEY', 'r8E8787c7Dybf2gVP5cJcJAweAfMxJa49Lk9T60k');      // <-- Your Alpha SMS API Key
+define('ALPHA_API_KEY', '#');      // <-- Your Alpha SMS API Key
 define('ALPHA_SENDER_ID', 'Random');  // <-- Your Alpha SMS Sender ID
 
 // --- PDO Database Connection ---
@@ -21,4 +21,5 @@ try {
 } catch(PDOException $e) {
     die("ERROR: Could not connect. " . $e->getMessage());
 }
+
 ?>
